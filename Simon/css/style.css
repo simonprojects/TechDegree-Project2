@@ -1,6 +1,7 @@
 
 #page {
 background-color:white;
+font-family: 'Josefin Slab', serif;
 }
 
 * {
@@ -10,7 +11,9 @@ background-color:white;
 .color {
 	color:darkgray;
 }
-@media screen and (max-width:768px){
+
+
+/* Mobile device */
 
 .name {
 	font-size:150%;
@@ -111,7 +114,7 @@ footer h1 {
 	margin-bottom:20px;
 }
 
-footer #detaiils {
+footer #details {
 	margin-top:20px;
 }
 
@@ -139,16 +142,12 @@ footer #detaiils {
 	margin-top:20px;
 }
 
-}
 
+/* Tablet */
 
-@media screen and (max-width:1024px) and (min-width:768px) {
+@media screen and (min-width:768px) {
 	
-.name {
-	font-size:150%;
-	text-align:center;
-	margin-bottom:20px;
-}
+
 
 nav {
 		width:100%;
@@ -156,7 +155,6 @@ nav {
 }
 
 .navigation ul {
-	list-style:none;
 	display:inline-block;
 	margin:0 auto;
 	
@@ -164,25 +162,12 @@ nav {
 
 .navigation li {
 	display:inline-block;
-	background-color:#fff;
-	padding:10px;
-	margin-bottom:5px;
-	text-align:center;
-
-	
 }
 
-.navigation li a{
-	display:block;
-	text-decoration:none;
-	color:black;
-	text-transform:uppercase;
-}
+
 
 #student {
 	width:100%;
-	line-height:1.3;
-	color:black;
 	margin-top:30px;
 	overflow:hidden;
 	
@@ -203,25 +188,14 @@ nav {
 }
 
 #portfolio {
-	padding-top:50px;
-	background-color:#fff;
 	overflow:hidden;
 	text-align:center;
 	width:100%;
 
 }
 
-#portfolio h1 {
-	text-align:center;
-	margin-bottom:20px;
-}
 
-#portfolio h2 {
-	text-align:center;
-	margin-top:30px;
-	margin-bottom:20px;
-	font-size:110%;
-}
+
 
 .feature {
 		float:left;
@@ -257,15 +231,9 @@ footer #detaiils {
 	margin-top:20px;
 }
 
-#details p {
-	margin-top:20px;
-	margin-bottom:20px;
-}
 
-#name {
-	float:left;
-	margin-left:20px;
-}
+
+
 
 
 #link {
@@ -289,13 +257,10 @@ footer #detaiils {
 	
 }
 
+/* Desktop */
+
 @media screen and (min-width:1024px) {
-	
-.name {
-	font-size:150%;
-	text-align:center;
-	margin-bottom:20px;
-}
+
 
 nav {
 		width:100%;
@@ -303,7 +268,7 @@ nav {
 }
 
 .navigation ul {
-	list-style:none;
+
 	display:inline-block;
 	margin:0 auto;
 	
@@ -311,26 +276,14 @@ nav {
 
 .navigation li {
 	display:inline-block;
-	background-color:#fff;
-	padding:10px;
-	margin-bottom:5px;
-	text-align:center;
-
 	
 }
 
-.navigation li a{
-	display:block;
-	text-decoration:none;
-	color:black;
-	text-transform:uppercase;
-}
+
 
 #student {
 	width:100%;
-	line-height:1.3;
 	color:black;
-	margin-top:30px;
 	overflow:hidden;
 	
 }
@@ -351,31 +304,22 @@ nav {
 
 
 #portfolio {
-	padding-top:50px;
-	background-color:#fff;
 	overflow:hidden;
 	text-align:center;
 	width:100%;
   margin-left:2%;
 }
 
-#portfolio h1 {
-	text-align:center;
-	margin-bottom:20px;
-}
 
-#portfolio h2 {
-	text-align:center;
-	margin-top:30px;
-	margin-bottom:20px;
-	font-size:110%;
-}
+
+
 
 .feature {
 		display:inline-block;
 		width:30%;
 		vertical-align:top;
 		margin-bottom:30px;
+		float:none;
 
 }
 
@@ -398,30 +342,6 @@ nav {
 	
 }
 
-footer {
-	text-align:center;
-	overflow:hidden;
-	padding-bottom:40px;
-}
-
-footer h1 {
-	font-weight:bold;
-	margin-bottom:20px;
-}
-
-footer #detaiils {
-	margin-top:20px;
-}
-
-#details p {
-	margin-top:20px;
-	margin-bottom:20px;
-}
-
-#name {
-	float:left;
-	margin-left:20px;
-}
 
 
 #link {
