@@ -118,6 +118,12 @@ footer #details {
 	margin-top:20px;
 }
 
+footer a:link , footer a:visited{
+	font-family: 'Josefin Slab', serif;
+	text-decoration:none;
+	color:black;
+}
+
 #details p {
 	margin-top:20px;
 	margin-bottom:20px;
@@ -260,6 +266,16 @@ footer #detaiils {
 /* Desktop */
 
 @media screen and (min-width:1024px) {
+	
+	.name {
+   display: inline;
+   position:relative;
+   top:30px;
+   left:20px;
+}
+.navigation {
+   text-align: right;
+}
 
 
 nav {
